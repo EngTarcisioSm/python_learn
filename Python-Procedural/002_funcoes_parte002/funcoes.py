@@ -1,0 +1,44 @@
+'''
+FUNÇÕES
+    - RETORNO DE FUNÇÕES
+
+    I   - FUNÇÕES PODEM TER RETORNO DE PROCESSAMENTO EFETUADOS POR SEUS PROCESSOS INTERNOS
+    II  - FUNÇÕES PARA DAR RETORNO, DEVEM UTILIZAR A PALAVRA RESERVADA RETURN SEGUIDO DO OU DOS VALORES
+    QUE SERÃO RETORNADOS
+    III - MESMO QUE A FUNÇÃO NÃO TENHA ALGUM VALOR SENDO RETORNADO, ELA RETORNA O VALOR NONE
+    IV  - RETURN DEVE SER O ULTIMO PROCESSO DA FUNÇÃO, QUALQUER PROCESSAMENTO ABAIXO DELE NÃO SERÁ
+    EXECUTADO
+    V   - PRATICAMENTE TODO PROGRAMA EM PYTHON É FEITO COM FUNÇÕES E/OU CLASSES
+    VI  - É POSSIVEL UTILIZAR FUNÇÕES COMO ATRIBUTO DE OUTRAS FUNÇÕES
+    VII - É POSSIVEL RETORNAR TODO TIPO DE DADOS EM RETURN DENTRO DE UMA FUNÇÃO
+    VIII- FUNÇÕES PODEM RETORNAR FUNÇÕES
+'''
+#(III)
+def funcao(var):
+    print(var)
+
+valor_retorno = funcao(1)
+print(valor_retorno)
+
+#(II)
+def funcao2(var):
+    return var
+valor_retorno = funcao2(32)
+print(valor_retorno)
+
+# FUNCAO DE DIVISÃO DE DOIS NUMEROS
+def divNum(num1, num2):
+    return num1 / num2
+
+#(VI)
+print(divNum(423, 123))
+
+# (VII)
+def fun3():
+    print('Retornot da função 3')
+def func4():
+    print('Retorno')
+    return fun3
+
+x = func4()
+print(x)
