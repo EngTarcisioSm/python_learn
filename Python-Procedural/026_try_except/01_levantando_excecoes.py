@@ -17,7 +17,7 @@
                 para isso é necessário ser bem especifico no erro a ser diagnosticado, posteriormente achar
                 no link acima qual excessão das ja existentes no python se aplicaria a situação e com o
                 uso de raise, colocando como seu parametro a mensagem de erro desejada
-    - V         Para usuários não é comum passar informações muito técnicas 
+    - V         Para usuários não é comum passar informações muito técnicas
 '''
 
 def divide(n1,n2):
