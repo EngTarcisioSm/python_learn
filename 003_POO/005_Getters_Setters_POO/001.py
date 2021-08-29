@@ -12,7 +12,7 @@
 
      VII.    Os métodos getters e setters são de certa forma uma proteção para os atributos da classe 
 
-
+     VI.       É possivel ter apenas getter mais setter não é possivel ter sozinho
 
 
 parei em 7:22
