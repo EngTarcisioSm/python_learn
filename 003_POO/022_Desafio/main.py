@@ -6,15 +6,15 @@ Criar um sistema bancário (extremamente simples) que tem clientes, contas e um 
 
 dicas:
 
-Criar class Clinete que herda da classe Pessoa (herança)
-    pessoa tem nome e idade (com getters)
-    Cliente Tem conta (agregação da classe ContaCorrente ou ContaPoupanca)
+OK - Criar class Clinete que herda da classe Pessoa (herança)
+    OK - pessoa tem nome e idade (com getters)
+    OK - Cliente Tem conta (agregação da classe ContaCorrente ou ContaPoupanca)
 
-Criar classes ContaPoupanca e ContaCorrente que herdam de Conta
-    ContaCorrente deve ter um limite extra
-    Contas tem agencias, numero da conta e saldo 
-    Contas devem ter método para deposito
-    Conta (super classe) deve ter o método sacar abstrato (Abstração e polimorfismo -as subclasses que implementam o metodo sacar)
+OK - Criar classes ContaPoupanca e ContaCorrente que herdam de Conta
+    OK - ContaCorrente deve ter um limite extra
+    OK - Contas tem agencias, numero da conta e saldo 
+    OK - Contas devem ter método para deposito
+    OK - Conta (super classe) deve ter o método sacar abstrato (Abstração e polimorfismo -as subclasses que implementam o metodo sacar)
 
 Criar classe Banco para Agregar classes de clientes e de contas (Agregação)
 Vanco será responsavel autenticar o cliente e as contas da seguinte maneira 
