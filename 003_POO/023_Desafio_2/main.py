@@ -1,4 +1,4 @@
-    """[Projeto desafio 2]
+"""[Projeto desafio 2]
 
         - Calculo de Rede Ip v4
 
@@ -48,4 +48,8 @@
 
 
 
-    """             
+"""             
+from calc_mask_ip import CalcMask
+
+a = CalcMask(2, '10.200.40.200')
+print(a)
